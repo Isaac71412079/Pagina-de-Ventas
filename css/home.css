@@ -1,0 +1,62 @@
+#cuerpo{
+    padding-top: 20px;
+display:flex;
+flex-wrap: wrap;
+}
+.imagenproductos
+{
+    flex: 50%;
+    text-align: center;
+    
+}
+.datosproductos
+{
+    flex: 50%;
+}
+@media (max-width:375px)
+{
+    .imagenproductos,  .datosproductos{
+        flex: 100%;
+    }
+}
+#button
+{
+    background-color: rgb(42, 165, 155);
+    margin: 10px 0px 0px 0px ;
+    padding: 5px;
+    text-align: center;
+    width: 120px;
+    border-radius: 10px;
+}
+#button a{
+    color: rgb(9, 66, 116);
+    font-weight: bold;
+    text-decoration: none;
+}
+#button a:hover{
+    color: rgb(144, 255,54);
+    
+}
+#lineaproducto
+{
+  margin-top: 20px;
+}
+.alinear{
+    padding-left: 20px;
+}
+.lineahorizontal{
+    width: 99%;
+    
+   }
+#catalogo
+{
+    margin-top: 20px;
+    display: flex;
+flex-wrap: wrap;
+}
+#listaproductos
+{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+}
