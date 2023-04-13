@@ -34,7 +34,6 @@ li a{
     text-decoration: none;
     font-size: 25px;
     
-
 }
 
 
@@ -68,12 +67,12 @@ li a{
     opacity: 40%;
 }
 footer{
-    background-color: rgb(39, 38, 38);
+    background-color: rgb(5, 36, 138);
     margin-top: 20px;
     padding: 20px 20px 20px 40px;
     display: flex;
     flex-wrap: wrap;
-    
+    color: white;
     
 }
 #menufooter li a{
@@ -90,6 +89,25 @@ footer{
     text-decoration: none;
     color:#00E463;
 }
+#footercolumna1{
+    
+    flex: 40%;
+}
+#footercolumna2{
+
+    flex: 30%;
+}
+#footercolumna3{
+    flex: 30%;
+}
+@media (max-width:800px)
+{
+    #footercolumna1, #footercolumna2,#footercolumna3 {
+        text-align: left;
+        margin-top: 20px;
+        flex: 100%;
+    }
+}
 .checkbtn{
     font-size: 30px;
     color: #fff;
@@ -102,7 +120,8 @@ footer{
 #check{
     display: none;
 }
-@media (max-width: 858px){
+@media (max-width: 800px)
+{
     .checkbtn{
         display: block;
     }
@@ -111,10 +130,11 @@ footer{
         width: 100%;
         height: 100vh;
         background: #2c3e50;
-        top: 220px;
+        top: 200px;
         left: -100%;
-        text-align: center;
+        text-align: left;
         transition: all .5s;
+        z-index: 2;
     }
     #menuizquierdo ul .link1{
         display: block;
@@ -125,7 +145,8 @@ footer{
         font-size: 20px;
     }
     .link1 a:hover, .link1 a.active{
-        background: none;
+        
+        background-color:#00E463;
         color: red;
     }
     #check:checked ~ ul{
