@@ -7,12 +7,13 @@ flex-wrap: wrap;
   display:none;
   display:flex;
   flex-wrap: wrap;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 1em;
 }
 .imagenproductos
 {
     flex: 40%;
     text-align: center;
-    
 }
 .datosproductos
 {
@@ -29,21 +30,24 @@ flex-wrap: wrap;
 }
 #button
 {
-    background-color: rgb(42, 165, 155);
     margin: 10px 0px 0px 0px ;
     padding: 5px;
     text-align: center;
     width: 150px;
     border-radius: 10px;
+    background-color: rgb(179, 255, 0);
 }
 #button a{
-    color: rgb(9, 66, 116);
+    color: black;
     font-weight: bold;
     text-decoration: none;
+    font-size: 20px;
+}
+#button:hover{
+    background-color:rgb(68, 0, 255);
 }
 #button a:hover{
-    color: rgb(144, 255,54);
-    
+    color:white;
 }
 #lineaproducto
 {
@@ -54,8 +58,7 @@ flex-wrap: wrap;
 }
 .lineahorizontal{
     width: 99%;
-    
-   }
+}
 #catalogo
 {
     margin-top: 20px;
@@ -65,7 +68,7 @@ flex-wrap: wrap;
 }
 #listaproductos
 {
-    background-color: beige;
+    background-color: rgb(183, 255, 149);
     border-radius: 10px;
     padding-top: 10px;
     width: 200px;
